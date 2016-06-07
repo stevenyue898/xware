@@ -13,8 +13,9 @@ into docker:
 cd /opt/xware/xware
 ./portal
 
-
+note：
 Don't quit out docker when it was running !
+`pwd`/TDDOWNLOAD is download files
 
 quit thunder xware :
 ./portal -s
