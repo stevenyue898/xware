@@ -4,7 +4,6 @@ by steven yue( kass307@qq.com)
 Linux 迅雷远程下载
 
 Usage：
-# docker volume share direct
 $mkdir TDDOWNLOAD
 $docker build -t steven/xware .
 $docker run -it   -v `pwd`/TDDOWNLOAD:/Download --name xware steven/xware
