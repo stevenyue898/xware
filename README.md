@@ -10,13 +10,19 @@ $docker run -it   -v `pwd`/TDDOWNLOAD:/TDDOWNLOAD --name xware steven/xware
 $docker start -i xware
 
 into docker:
-cd /opt/xware/xware
+cd /opt/xware
 ./portal
 
+getting xunlei service info...
 
-Don't quit out docker when it was running !
+THE ACTIVE CODE IS: xxxxxx
 
-quit thunder xware :
+go to http://yuancheng.xunlei.com, bind your device with the active code.
+finished.
+
+Don't quit out docker when it was running !!!
+
+Stop thunder xware :
 ./portal -s
 
 

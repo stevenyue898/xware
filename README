@@ -1,0 +1,14 @@
+mkdir TDDOWNLOAD
+docker build -t steven/xware .
+docker run  -it -v `pwd`/TDDOWNLOAD:/TDDOWNLOAD --name xware steven/xware
+docker start -i xware
+
+cd /opt/xware/
+./portal
+
+getting xunlei service info...
+
+THE ACTIVE CODE IS: xxxxxx
+
+go to http://yuancheng.xunlei.com, bind your device with the active code.
+finished.
