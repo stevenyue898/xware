@@ -35,8 +35,7 @@ THE ACTIVE CODE IS: xxxxxx
 go to http://yuancheng.xunlei.com, bind your device with the active code.
 finished.
 
-`$docker start -i xware`
->Run docker 
+
 
 Stop thunder xware :
 
