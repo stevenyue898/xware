@@ -11,15 +11,15 @@ Usage：
 
 `$docker build -t steven/xware .` 
 
-`$docker run -it   -v pwd/TDDOWNLOAD:/Download --name xware steven/xware` 
+`$docker run -it   -v ~/TDDOWNLOAD:/Download --name xware steven/xware` 
+
+>waiting for /opt/xware/portal run init ,get getting xunlei service info... 
+
+>THE ACTIVE CODE IS: xxxxxx 
+>go to http://yuancheng.xunlei.com, bind your device with the active code.
 
 `$docker start -i xware`
-
-`into docker:`
-
-`cd /opt/xware`
-
-`./portal`
+>Run docker 
 
 
 
@@ -30,7 +30,6 @@ THE ACTIVE CODE IS: xxxxxx
 go to http://yuancheng.xunlei.com, bind your device with the active code.
 finished.
 
-Don't quit out docker when it was running !!!
 
 Stop thunder xware :
 
