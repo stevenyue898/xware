@@ -13,9 +13,9 @@ Usage：
 
 `$docker run -it   -v ~/TDDOWNLOAD:/Download --name xware steven/xware` 
 
->waiting for /opt/xware/portal run init ,get getting xunlei service info... 
+>waiting for /opt/xware/portal run init ,show " getting xunlei service info..." 
 
->THE ACTIVE CODE IS: xxxxxx 
+>THE ACTIVE CODE IS: xxxxxx (record it)
 >go to http://yuancheng.xunlei.com, bind your device with the active code.
 
 `$docker start -i xware`
