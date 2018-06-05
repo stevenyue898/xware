@@ -7,5 +7,5 @@ RUN mkdir -p /root/.xware-desktop
 copy xware.tar.gz  /opt/xware.tar.gz
 RUN cd /opt && tar -zxvf xware.tar.gz 
 #VOLUME ["/TDDOWNLOAD","/root/.xware-desktop"]
-CMD ["/opt/xware/portal"]
+CMD ["/bin/bash"]
 
