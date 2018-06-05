@@ -8,12 +8,17 @@
 Usage：
 
 `$mkdir TDDOWNLOAD` 
+
 `$docker build -t steven/xware .` 
+
 `$docker run -it   -v pwd/TDDOWNLOAD:/Download --name xware steven/xware` 
+
 `$docker start -i xware`
 
 `into docker:`
+
 `cd /opt/xware`
+
 `./portal`
 
 
@@ -28,6 +33,7 @@ finished.
 Don't quit out docker when it was running !!!
 
 Stop thunder xware :
+
 `./portal -s`
 
 
