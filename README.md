@@ -12,8 +12,11 @@ Usage：
 `$docker build -t steven/xware .` 
 
 `$docker run -it  -d -v ~/TDDOWNLOAD:/TDDOWNLOAD --name xware steven/xware`  
+
 `$docker exec -it xware bash`
+
 `cd /opt/xware` 
+
 `./portal` 
 
 >waiting for /opt/xware/portal run init ,show " getting xunlei service info..." 
