@@ -1,9 +1,10 @@
 # xware
-Xunlei Thunder xware for docker 
-by steven yue( kass307@qq.com)
-Linux 迅雷远程下载
+>Xunlei Thunder xware for docker 
+>by steven yue( kass307@qq.com)
+>Linux 迅雷远程下载
 
 Usage：
+`
 $mkdir TDDOWNLOAD
 $docker build -t steven/xware .
 $docker run -it   -v `pwd`/TDDOWNLOAD:/Download --name xware steven/xware
@@ -12,7 +13,7 @@ $docker start -i xware
 into docker:
 cd /opt/xware
 ./portal
-
+`
 getting xunlei service info...
 
 THE ACTIVE CODE IS: xxxxxx
